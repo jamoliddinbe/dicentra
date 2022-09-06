@@ -1,0 +1,104 @@
+.footer{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #292933;
+    color: white;
+    padding: 50px 0;
+    margin-top: 50px;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    li{
+        list-style: none;
+    }
+    &__left{
+        width: 20%;
+    }
+    &__left2{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        &__nav{
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__right{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        &__nav{
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__right2{
+        width: 25%;
+        input{
+            width: 240px;
+            height: 60px;
+            border: none;
+            border-radius: 30px;
+            padding-left: 10px;
+margin-bottom: 20px;
+        }
+    }
+}
+@media screen and (max-width:768px){  
+  .footer{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    &__left{
+        width: 80%;
+    }
+    &__left2{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        &__nav{
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+        &__nav{
+            li{
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__right2{
+        width: 80%;
+        input{
+            width: 240px;
+            height: 60px;
+            border: none;
+            border-radius: 30px;
+            padding-left: 10px;
+margin-bottom: 20px;
+        }
+    }
+  }  
+}
+@media screen and (max-width:375px){
+    .footer{
+        width: 100%;
+    }
+}

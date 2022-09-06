@@ -1,0 +1,27 @@
+.advert{
+    width: 1300px;
+    background-color: #F6F3F1;
+    text-align: center;
+    background-image: url(/images/btnleft.svg);
+    background-repeat: no-repeat;
+    background-position: 600px 450px ;
+    &__box{
+img{
+    max-width: 100%;
+}
+    }
+}
+@media screen and (max-width:768px){
+    .advert{
+        width: 100%;
+        flex-wrap: wrap;
+        background-position: 570px 700px;
+    }
+}
+@media screen and (max-width:375px){
+    .advert{
+        width: 100%;
+        flex-wrap: wrap;
+justify-content: center;
+    }
+}

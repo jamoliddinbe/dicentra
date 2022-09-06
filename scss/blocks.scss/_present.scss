@@ -1,0 +1,52 @@
+.present{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    &__start{
+        margin-top: 100px;
+        width: 30%;
+        h3{
+            margin-bottom: 50px;
+        }
+    }
+    &__middle{
+        margin-top: 50px;
+        width: 30%;
+    }
+    &__end{
+        margin-top: 25px;
+        width: 30%;
+    }
+}
+@media screen and (max-width:768px){
+    .present{
+        width: 100%;
+        display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+        &__start{
+            margin-top: 100px;
+            width: 60%;
+            h3{
+                margin-bottom: 50px;
+            }
+        }
+        &__middle{
+            margin-top: 50px;
+            width: 60%;
+        }
+        &__end{
+            margin-top: 25px;
+            width: 60%;
+        }
+    }
+}
+@media screen and (max-width:375px){
+    .present{
+        width: 100%;
+    img{
+        margin-left: -35px;
+    }
+    }
+}

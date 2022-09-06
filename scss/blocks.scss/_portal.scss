@@ -1,0 +1,45 @@
+.portal{
+    width: 1300px;
+    padding: 50px 0;
+    background-color: #F6F3F1;
+    text-align: center;
+    &__boxes{
+        display: flex;
+        &__left{
+            flex-direction: column;
+        }
+        button{
+            width: 161px;
+            height: 50px;
+            background-color: #292933;
+            border: none;
+            border-radius: 30px;
+            color: white;
+        }
+    }
+    
+}
+@media screen and (max-width:768px){
+    .portal{
+        width: 100%;
+        padding: 50px 0;
+        background-color: #F6F3F1;
+        text-align: center;
+        &__boxes{
+            display: flex;
+            flex-wrap: wrap;
+            &__left{
+                flex-direction: column;
+            }
+            button{
+                width: 161px;
+                height: 50px;
+                background-color: #292933;
+                border: none;
+                border-radius: 30px;
+                color: white;
+                margin-bottom: 30px;
+            }
+        }  
+}
+}

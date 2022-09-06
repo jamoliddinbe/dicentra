@@ -1,0 +1,74 @@
+.hero{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    &__phone{
+display: flex;
+align-items: center;
+margin-left: 250px;
+img{
+    margin-right: 10px;
+}
+    }
+&__logo{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 10px;
+    }
+}
+
+&__lupa{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 10px;
+    }
+}
+
+&__user{
+    display: flex;
+    align-items: center;
+    img{
+        margin-right: 10px;
+    }
+}
+
+&__number{
+    width: 36px;
+    height: 36px;
+    background-color: black;
+    text-decoration: none;  
+    color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+@media screen and (max-width:768px){
+    .hero{
+        width: 100%;
+        &__phone{
+            margin-left: 0;
+        }
+    }
+}
+@media screen and (max-width:375px){
+    .hero{
+        width: 100%;
+        a{
+            display: none;
+        }
+        img{
+            margin-left: -10px;
+        }
+    }
+}

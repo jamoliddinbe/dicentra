@@ -1,0 +1,22 @@
+.instagram{
+    width: 1300px;
+    img{
+        max-width: 100%;
+    }
+}
+@media screen  and (max-width:758px){
+    .instagram{
+        width: 100%;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+@media screen  and (max-width:375px){
+    .instagram{
+        width: 100%;
+        img{
+            max-width: 100%;
+        }
+    }
+}
